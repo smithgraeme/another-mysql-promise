@@ -13,6 +13,8 @@ db = new dbLib({
     database: "cryptocurrencyData",
 });
 
-//no more callbacks!
+//no more callbacks! yay!
 await db.query("INSERT INTO `coin` (`identifier`) VALUES(?);", [coin.id]);
+
+//do other stuff
 ```
