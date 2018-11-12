@@ -1,5 +1,5 @@
 # another-mysql-promise
-A very lightweight Node.js mysql driver wrapper that adds promises so you can use nice tidy async/await style code. Works great if you're writing Node.js based AWS Lambda's with a MySQL backend.
+A very lightweight Node.js mysql driver wrapper that adds promises so you can use nice tidy async/await style code. Works great if you're writing Node.js based AWS Lambdas with a MySQL backend.
 
 Example usage:
 
