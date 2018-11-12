@@ -16,5 +16,6 @@ db = new dbLib({
 //no more callbacks! yay!
 await db.query("INSERT INTO `coin` (`identifier`) VALUES(?);", [coin.id]);
 
-//do other stuff
+//run more queries or other code or whatever immediately after the query finishes
+console.log("Gonna do some stuff");
 ```
